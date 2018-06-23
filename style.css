@@ -1,5 +1,5 @@
 body{
-	background: black;
+	background: gray;
 	font-size: 23px;
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
@@ -9,6 +9,7 @@ input{
 }
 h1{
 	font-size: 35px;
+	color: orange;
 }
 .postcard{
 	background: white;
@@ -17,7 +18,10 @@ h1{
 	margin: auto;
 	position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
 	padding: 15px;
-	background-image: url("http://pdastudios.com.au/wp-content/uploads/brisbane-graphic-design.jpg");
+	background-image: url("image/image1.jpg");
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+
 }
 .postcard h1{
 	margin: 0;
@@ -25,6 +29,8 @@ h1{
 .left-part{
 	float: left;
 	width: 50%;
+	color: orange;
+	/*font-weight: bold;*/
 }
 .right-part{
 	float: right;
@@ -53,6 +59,8 @@ h1{
 	border: none;
 	border-bottom: 1px solid gray;
 	font-family: 'Yanone Kaffeesatz', sans-serif;
+	padding: 4px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 .postcard-body input[type=text]{
 	border: none;
