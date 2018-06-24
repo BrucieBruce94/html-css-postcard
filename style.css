@@ -12,6 +12,7 @@ h1{
 	color: orange;
 }
 .postcard{
+	border-radius: 10px;
 	background: white;
 	width: 550px; 
 	height: 300px;
@@ -27,12 +28,16 @@ h1{
 	margin: 0;
 }
 .left-part{
+	padding: 8px;
 	float: left;
 	width: 50%;
-	color: orange;
+	color: blue;
+	background-color: rgba(198, 195, 204, .7);
+	border-radius: 10px;
 	/*font-weight: bold;*/
 }
 .right-part{
+	margin-top: 8%;
 	float: right;
 	width: 50%%;
 	opacity: .8;
